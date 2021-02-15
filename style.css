@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: ghostwhite;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.85;
+    background: linear-gradient(#f2a2ee 0%, #f72073 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3
+}
+
+.menu {
+    background: white;
+    color: ghostwhite;
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    right: 0px;
+    z-index: 50;
+    cursor: pointer;
+    width: 100%;
+}
+
+.links {
+    float: left;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+    text-decoration: none;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: blue !important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+center {
+    text-align: center;
+}
